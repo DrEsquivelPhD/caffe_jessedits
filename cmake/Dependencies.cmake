@@ -71,7 +71,7 @@ endif()
 if(USE_OPENCV)
   find_package(OpenCV QUIET COMPONENTS core highgui imgproc imgcodecs)
   if(NOT OpenCV_FOUND) # if not OpenCV 3.x, then imgcodecs are not found
-    find_package(OpenCV REQUIRED COMPONENTS core highgui imgproc)
+    find_package(OpenCV REQUIRED COMPONENTS core highgui imgproc imgcodecs)
   endif()
   include_directories(SYSTEM ${OpenCV_INCLUDE_DIRS})
   list(APPEND Caffe_LINKER_LIBS ${OpenCV_LIBS})

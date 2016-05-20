@@ -245,17 +245,24 @@ class Transformer:
         ms = mean.shape
         if mean.ndim == 1:
             # broadcast channels
-            if ms[0] != self.inputs[in_][1]:
-                raise ValueError('Mean channels incompatible with input.')
+	    if ms[0] != self.inputs[in_][1]:
+               raise ValueError('Mean shape incompatible with input shape.') 
             mean = mean[:, np.newaxis, np.newaxis]
         else:
             # elementwise mean
             if len(ms) == 2:
                 ms = (1,) + ms
             if len(ms) != 3:
-                raise ValueError('Mean shape invalid')
-            if ms != self.inputs[in_][1:]:
-                raise ValueError('Mean shape incompatible with input shape.')
+               raise ValueError('Mean shape invalid.') 
+               if ms != self.inputs[in_][1:]:
+                  print(self.inputs[in_])
+                  in_shape = self.inputs[in_][1:]
+                  m_min, m_max = mean.min(), mean.max()
+                  normal_mean = (mean - m_min) / (m_max - m_min)
+                  mean = resize_image(normal_mean.transpose((1,2,0)),in_shape[1:]).transpose((2,0,1)) * (m_max - m_min) + m_min
+                  #raise ValueError('Mean shape incompatible with input shape.') 
+
+
         self.mean[in_] = mean
 
     def set_input_scale(self, in_, scale):
@@ -275,7 +282,7 @@ class Transformer:
 
 ## Image IO
 
-def load_image(filename, color=True):
+def load_image(filename, color=False):
     """
     Load an image converting from grayscale or alpha as needed.
 

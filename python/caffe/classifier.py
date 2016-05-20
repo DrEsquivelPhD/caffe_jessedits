@@ -12,7 +12,6 @@ class Classifier(caffe.Net):
     """
     Classifier extends Net for image class prediction
     by scaling, center cropping, or oversampling.
-
     Parameters
     ----------
     image_dims : dimensions to scale input for cropping/sampling.
@@ -47,14 +46,12 @@ class Classifier(caffe.Net):
     def predict(self, inputs, oversample=True):
         """
         Predict classification probabilities of inputs.
-
         Parameters
         ----------
         inputs : iterable of (H x W x K) input ndarrays.
         oversample : boolean
             average predictions across center, corners, and mirrors
             when True (default). Center-only prediction when False.
-
         Returns
         -------
         predictions: (N x C) ndarray of class probabilities for N images and C
@@ -79,6 +76,7 @@ class Classifier(caffe.Net):
                 -self.crop_dims / 2.0,
                 self.crop_dims / 2.0
             ])
+            crop = crop.astype(int)
             input_ = input_[:, crop[0]:crop[2], crop[1]:crop[3], :]
 
         # Classify

@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 """
 classify.py is an out-of-the-box image classifer callable from the command line.
-
 By default it configures and runs the Caffe reference ImageNet model.
 """
 import numpy as np
+import pandas as pd
 import os
 import sys
 import argparse
@@ -23,6 +23,17 @@ def main(argv):
         "input_file",
         help="Input image, directory, or npy."
     )
+    parser.add_argument(
+        "--print_results",
+        action='store_true',
+        help="Write output text to stdout rather than serializing to a file."
+    )
+    parser.add_argument(
+        "--labels_file",
+        default=os.path.join(pycaffe_dir,
+                "../data/ilsvrc12/synset_words.txt"),
+        help="Readable label definition file."
+    )    
     parser.add_argument(
         "output_file",
         help="Output npy filename."
@@ -105,7 +116,7 @@ def main(argv):
 
     # Make classifier.
     classifier = caffe.Classifier(args.model_def, args.pretrained_model,
-            image_dims=image_dims, mean=mean,
+            image_dims=image_dims, mean=mean.mean(1).mean(1),
             input_scale=args.input_scale, raw_scale=args.raw_scale,
             channel_swap=channel_swap)
 
@@ -126,12 +137,32 @@ def main(argv):
 
     # Classify.
     start = time.time()
-    predictions = classifier.predict(inputs, not args.center_only)
+    scores = classifier.predict(inputs, not args.center_only).flatten()
     print("Done in %.2f s." % (time.time() - start))
+    
+    if args.print_results:
+        with open(args.labels_file) as f:
+          labels_df = pd.DataFrame([
+               {
+                   'synset_id': l.strip().split(' ')[0],
+                   'name': ' '.join(l.strip().split(' ')[1:]).split(',')[0]
+               }
+               for l in f.readlines()
+            ])
+        labels = labels_df.sort('synset_id')['name'].values
 
+        indices = (-scores).argsort()[:5]
+        predictions = labels[indices]
+
+        meta = [
+                   (p, '%.5f' % scores[i])
+                   for i, p in zip(indices, predictions)
+               ]
+
+        print meta
     # Save
     print("Saving results into %s" % args.output_file)
-    np.save(args.output_file, predictions)
+    np.save(args.output_file, scores)
 
 
 if __name__ == '__main__':
