@@ -19,4 +19,3 @@ print "finished creating array"
 out = arr[0]
 np.save( sys.argv[2] , out )
 print "Finished converting"
-                            
