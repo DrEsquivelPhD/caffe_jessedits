@@ -1,0 +1,815 @@
+The system is: Linux - 2.6.32-573.3.1.el6.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/jessi12/CNN_local/caffe/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: -fPIC
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/jessi12/CNN_local/caffe/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2516630117/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2516630117.dir/build.make CMakeFiles/cmTryCompileExec2516630117.dir/build
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2516630117.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2516630117.dir/testCCompiler.c.o   -c /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec2516630117
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2516630117.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2516630117.dir/testCCompiler.c.o  -o cmTryCompileExec2516630117 -rdynamic 
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1249576996/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1249576996.dir/build.make CMakeFiles/cmTryCompileExec1249576996.dir/build
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1249576996.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1249576996.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec1249576996
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1249576996.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1249576996.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1249576996 -rdynamic  
+Using built-in specs.
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.4.7 20120313 (Red Hat 4.4.7-16) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1249576996' '-rdynamic' '-mtune=generic'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1249576996 /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../.. CMakeFiles/cmTryCompileExec1249576996.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec1249576996/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1249576996.dir/build.make CMakeFiles/cmTryCompileExec1249576996.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1249576996.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1249576996.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec1249576996]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1249576996.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1249576996.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1249576996 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.4.7 20120313 (Red Hat 4.4.7-16) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1249576996' '-rdynamic' '-mtune=generic']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1249576996 /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../.. CMakeFiles/cmTryCompileExec1249576996.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1249576996] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../..]
+    arg [CMakeFiles/cmTryCompileExec1249576996.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.4.7]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.4.7]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.4.7;/usr/lib64;/lib64;/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1217745921/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1217745921.dir/build.make CMakeFiles/cmTryCompileExec1217745921.dir/build
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1217745921.dir/testCXXCompiler.cxx.o
+/usr/bin/c++    -fPIC     -o CMakeFiles/cmTryCompileExec1217745921.dir/testCXXCompiler.cxx.o -c /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec1217745921
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1217745921.dir/link.txt --verbose=1
+/usr/bin/c++   -fPIC      CMakeFiles/cmTryCompileExec1217745921.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1217745921 -rdynamic 
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3079087473/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3079087473.dir/build.make CMakeFiles/cmTryCompileExec3079087473.dir/build
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3079087473.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -fPIC     -o CMakeFiles/cmTryCompileExec3079087473.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec3079087473
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3079087473.dir/link.txt --verbose=1
+/usr/bin/c++   -fPIC    -v CMakeFiles/cmTryCompileExec3079087473.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3079087473 -rdynamic  
+Using built-in specs.
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.4.7 20120313 (Red Hat 4.4.7-16) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fPIC' '-v' '-o' 'cmTryCompileExec3079087473' '-rdynamic' '-shared-libgcc' '-mtune=generic'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3079087473 /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../.. CMakeFiles/cmTryCompileExec3079087473.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec3079087473/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3079087473.dir/build.make CMakeFiles/cmTryCompileExec3079087473.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3079087473.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -fPIC     -o CMakeFiles/cmTryCompileExec3079087473.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec3079087473]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3079087473.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++   -fPIC    -v CMakeFiles/cmTryCompileExec3079087473.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3079087473 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.4.7 20120313 (Red Hat 4.4.7-16) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIC' '-v' '-o' 'cmTryCompileExec3079087473' '-rdynamic' '-shared-libgcc' '-mtune=generic']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3079087473 /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../.. CMakeFiles/cmTryCompileExec3079087473.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3079087473] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../..]
+    arg [CMakeFiles/cmTryCompileExec3079087473.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.4.7]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.4.7]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.4.7;/usr/lib64;/lib64;/usr/lib]
+  implicit fwks: []
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1029504838/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1029504838.dir/build.make CMakeFiles/cmTryCompileExec1029504838.dir/build
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1029504838.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1029504838.dir/CheckIncludeFiles.c.o   -c /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1029504838
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1029504838.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1029504838.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1029504838 -rdynamic 
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1531248930/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1531248930.dir/build.make CMakeFiles/cmTryCompileExec1531248930.dir/build
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1531248930.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1531248930.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1531248930
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1531248930.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1531248930.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1531248930 -rdynamic -lpthread 
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2981225796/fast"
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2981225796.dir/build.make CMakeFiles/cmTryCompileExec2981225796.dir/build
+gmake[2]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2981225796.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2981225796.dir/CheckIncludeFiles.c.o   -c /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2981225796
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2981225796.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2981225796.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2981225796 -rdynamic 
+gmake[2]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3294278148/fast"
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3294278148.dir/build.make CMakeFiles/cmTryCompileExec3294278148.dir/build
+gmake[2]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3294278148.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3294278148.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3294278148
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3294278148.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3294278148.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3294278148 -rdynamic -lpthread 
+gmake[2]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3547516785/fast"
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3547516785.dir/build.make CMakeFiles/cmTryCompileExec3547516785.dir/build
+gmake[2]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3547516785.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3547516785.dir/CheckIncludeFiles.c.o   -c /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3547516785
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3547516785.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3547516785.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3547516785 -rdynamic 
+gmake[2]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec485421928/fast"
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec485421928.dir/build.make CMakeFiles/cmTryCompileExec485421928.dir/build
+gmake[2]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec485421928.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec485421928.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec485421928
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec485421928.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec485421928.dir/CheckFunctionExists.c.o  -o cmTryCompileExec485421928 -rdynamic -lpthread 
+gmake[2]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec822909570/fast"
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec822909570.dir/build.make CMakeFiles/cmTryCompileExec822909570.dir/build
+gmake[2]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec822909570.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec822909570.dir/CheckIncludeFiles.c.o   -c /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec822909570
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec822909570.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec822909570.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec822909570 -rdynamic 
+gmake[2]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1628251856/fast"
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1628251856.dir/build.make CMakeFiles/cmTryCompileExec1628251856.dir/build
+gmake[2]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1628251856.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1628251856.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1628251856
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1628251856.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1628251856.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1628251856 -rdynamic -lpthread 
+gmake[2]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3268911181/fast"
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3268911181.dir/build.make CMakeFiles/cmTryCompileExec3268911181.dir/build
+gmake[2]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3268911181.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3268911181.dir/CheckIncludeFiles.c.o   -c /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3268911181
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3268911181.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3268911181.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3268911181 -rdynamic 
+gmake[2]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1092091756/fast"
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1092091756.dir/build.make CMakeFiles/cmTryCompileExec1092091756.dir/build
+gmake[2]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1092091756.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1092091756.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1092091756
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1092091756.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1092091756.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1092091756 -rdynamic -lpthread 
+gmake[2]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec524337765/fast"
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec524337765.dir/build.make CMakeFiles/cmTryCompileExec524337765.dir/build
+gmake[2]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec524337765.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec524337765.dir/CheckIncludeFiles.c.o   -c /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec524337765
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec524337765.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec524337765.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec524337765 -rdynamic 
+gmake[2]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3793246963/fast"
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3793246963.dir/build.make CMakeFiles/cmTryCompileExec3793246963.dir/build
+gmake[2]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3793246963.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3793246963.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3793246963
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3793246963.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3793246963.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3793246963 -rdynamic -lpthread 
+gmake[2]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec376833013/fast"
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec376833013.dir/build.make CMakeFiles/cmTryCompileExec376833013.dir/build
+gmake[2]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec376833013.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec376833013.dir/CheckIncludeFiles.c.o   -c /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec376833013
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec376833013.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec376833013.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec376833013 -rdynamic 
+gmake[2]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1512479319/fast"
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1512479319.dir/build.make CMakeFiles/cmTryCompileExec1512479319.dir/build
+gmake[2]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1512479319.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1512479319.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1512479319
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1512479319.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1512479319.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1512479319 -rdynamic -lpthread 
+gmake[2]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3209174316/fast"
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3209174316.dir/build.make CMakeFiles/cmTryCompileExec3209174316.dir/build
+gmake[2]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3209174316.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3209174316.dir/CheckIncludeFiles.c.o   -c /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3209174316
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3209174316.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3209174316.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3209174316 -rdynamic 
+gmake[2]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3406846655/fast"
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3406846655.dir/build.make CMakeFiles/cmTryCompileExec3406846655.dir/build
+gmake[2]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3406846655.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3406846655.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3406846655
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3406846655.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3406846655.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3406846655 -rdynamic -lpthread 
+gmake[2]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4044785743/fast"
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4044785743.dir/build.make CMakeFiles/cmTryCompileExec4044785743.dir/build
+gmake[2]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4044785743.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -I/usr/local/include -I/usr/include     -o CMakeFiles/cmTryCompileExec4044785743.dir/CheckIncludeFiles.c.o   -c /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4044785743
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4044785743.dir/link.txt --verbose=1
+/usr/bin/cc  -I/usr/local/include -I/usr/include     -L/usr/local/lib -L/usr/lib CMakeFiles/cmTryCompileExec4044785743.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4044785743 -rdynamic 
+gmake[2]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec947511614/fast"
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec947511614.dir/build.make CMakeFiles/cmTryCompileExec947511614.dir/build
+gmake[2]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec947511614.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -I/usr/local/include -I/usr/include  -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec947511614.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec947511614
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec947511614.dir/link.txt --verbose=1
+/usr/bin/cc  -I/usr/local/include -I/usr/include  -DCHECK_FUNCTION_EXISTS=pthread_create   -L/usr/local/lib -L/usr/lib CMakeFiles/cmTryCompileExec947511614.dir/CheckFunctionExists.c.o  -o cmTryCompileExec947511614 -rdynamic -lpthread 
+gmake[2]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2233137041/fast"
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2233137041.dir/build.make CMakeFiles/cmTryCompileExec2233137041.dir/build
+gmake[2]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2233137041.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -I/usr/local/include -I/usr/include     -o CMakeFiles/cmTryCompileExec2233137041.dir/CheckIncludeFiles.c.o   -c /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2233137041
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2233137041.dir/link.txt --verbose=1
+/usr/bin/cc  -I/usr/local/include -I/usr/include     -L/usr/local/lib -L/usr/lib CMakeFiles/cmTryCompileExec2233137041.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2233137041 -rdynamic 
+gmake[2]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec178075647/fast"
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec178075647.dir/build.make CMakeFiles/cmTryCompileExec178075647.dir/build
+gmake[2]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec178075647.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -I/usr/local/include -I/usr/include  -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec178075647.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec178075647
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec178075647.dir/link.txt --verbose=1
+/usr/bin/cc  -I/usr/local/include -I/usr/include  -DCHECK_FUNCTION_EXISTS=pthread_create   -L/usr/local/lib -L/usr/lib CMakeFiles/cmTryCompileExec178075647.dir/CheckFunctionExists.c.o  -o cmTryCompileExec178075647 -rdynamic -lpthread 
+gmake[2]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec699926343/fast"
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec699926343.dir/build.make CMakeFiles/cmTryCompileExec699926343.dir/build
+gmake[2]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec699926343.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -I/usr/local/include -I/usr/include     -o CMakeFiles/cmTryCompileExec699926343.dir/CheckIncludeFiles.c.o   -c /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec699926343
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec699926343.dir/link.txt --verbose=1
+/usr/bin/cc  -I/usr/local/include -I/usr/include     -L/usr/local/lib -L/usr/lib CMakeFiles/cmTryCompileExec699926343.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec699926343 -rdynamic 
+gmake[2]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec788301261/fast"
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec788301261.dir/build.make CMakeFiles/cmTryCompileExec788301261.dir/build
+gmake[2]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec788301261.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -I/usr/local/include -I/usr/include  -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec788301261.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec788301261
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec788301261.dir/link.txt --verbose=1
+/usr/bin/cc  -I/usr/local/include -I/usr/include  -DCHECK_FUNCTION_EXISTS=pthread_create   -L/usr/local/lib -L/usr/lib CMakeFiles/cmTryCompileExec788301261.dir/CheckFunctionExists.c.o  -o cmTryCompileExec788301261 -rdynamic -lpthread 
+gmake[2]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3072466920/fast"
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3072466920.dir/build.make CMakeFiles/cmTryCompileExec3072466920.dir/build
+gmake[2]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3072466920.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -I/usr/local/include -I/usr/include     -o CMakeFiles/cmTryCompileExec3072466920.dir/CheckIncludeFiles.c.o   -c /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3072466920
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3072466920.dir/link.txt --verbose=1
+/usr/bin/cc  -I/usr/local/include -I/usr/include     -L/usr/local/lib -L/usr/lib CMakeFiles/cmTryCompileExec3072466920.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3072466920 -rdynamic 
+gmake[2]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2228038039/fast"
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2228038039.dir/build.make CMakeFiles/cmTryCompileExec2228038039.dir/build
+gmake[2]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2228038039.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -I/usr/local/include -I/usr/include  -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2228038039.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2228038039
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2228038039.dir/link.txt --verbose=1
+/usr/bin/cc  -I/usr/local/include -I/usr/include  -DCHECK_FUNCTION_EXISTS=pthread_create   -L/usr/local/lib -L/usr/lib CMakeFiles/cmTryCompileExec2228038039.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2228038039 -rdynamic -lpthread 
+gmake[2]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4257906217/fast"
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4257906217.dir/build.make CMakeFiles/cmTryCompileExec4257906217.dir/build
+gmake[2]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4257906217.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -I/usr/local/include -I/usr/include     -o CMakeFiles/cmTryCompileExec4257906217.dir/CheckIncludeFiles.c.o   -c /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4257906217
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4257906217.dir/link.txt --verbose=1
+/usr/bin/cc  -I/usr/local/include -I/usr/include     -L/usr/local/lib -L/usr/lib CMakeFiles/cmTryCompileExec4257906217.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4257906217 -rdynamic 
+gmake[2]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3941939668/fast"
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3941939668.dir/build.make CMakeFiles/cmTryCompileExec3941939668.dir/build
+gmake[2]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3941939668.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -I/usr/local/include -I/usr/include  -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3941939668.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3941939668
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3941939668.dir/link.txt --verbose=1
+/usr/bin/cc  -I/usr/local/include -I/usr/include  -DCHECK_FUNCTION_EXISTS=pthread_create   -L/usr/local/lib -L/usr/lib CMakeFiles/cmTryCompileExec3941939668.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3941939668 -rdynamic -lpthread 
+gmake[2]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4139410224/fast"
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4139410224.dir/build.make CMakeFiles/cmTryCompileExec4139410224.dir/build
+gmake[2]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4139410224.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -I/usr/local/include -I/usr/include     -o CMakeFiles/cmTryCompileExec4139410224.dir/CheckIncludeFiles.c.o   -c /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4139410224
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4139410224.dir/link.txt --verbose=1
+/usr/bin/cc  -I/usr/local/include -I/usr/include     -L/usr/local/lib -L/usr/lib CMakeFiles/cmTryCompileExec4139410224.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4139410224 -rdynamic 
+gmake[2]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3835071355/fast"
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3835071355.dir/build.make CMakeFiles/cmTryCompileExec3835071355.dir/build
+gmake[2]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3835071355.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -I/usr/local/include -I/usr/include  -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3835071355.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3835071355
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3835071355.dir/link.txt --verbose=1
+/usr/bin/cc  -I/usr/local/include -I/usr/include  -DCHECK_FUNCTION_EXISTS=pthread_create   -L/usr/local/lib -L/usr/lib CMakeFiles/cmTryCompileExec3835071355.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3835071355 -rdynamic -lpthread 
+gmake[2]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1914121003/fast"
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1914121003.dir/build.make CMakeFiles/cmTryCompileExec1914121003.dir/build
+gmake[2]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1914121003.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -I/usr/local/include -I/usr/include -fPIC     -o CMakeFiles/cmTryCompileExec1914121003.dir/CheckIncludeFiles.c.o   -c /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1914121003
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1914121003.dir/link.txt --verbose=1
+/usr/bin/cc  -I/usr/local/include -I/usr/include -fPIC     -L/usr/local/lib -L/usr/lib CMakeFiles/cmTryCompileExec1914121003.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1914121003 -rdynamic 
+gmake[2]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1130355505/fast"
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1130355505.dir/build.make CMakeFiles/cmTryCompileExec1130355505.dir/build
+gmake[2]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1130355505.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -I/usr/local/include -I/usr/include -fPIC  -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1130355505.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1130355505
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1130355505.dir/link.txt --verbose=1
+/usr/bin/cc  -I/usr/local/include -I/usr/include -fPIC  -DCHECK_FUNCTION_EXISTS=pthread_create   -L/usr/local/lib -L/usr/lib CMakeFiles/cmTryCompileExec1130355505.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1130355505 -rdynamic -lpthread 
+gmake[2]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec593280268/fast"
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec593280268.dir/build.make CMakeFiles/cmTryCompileExec593280268.dir/build
+gmake[2]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec593280268.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -I/usr/local/include -I/usr/include -fPIC     -o CMakeFiles/cmTryCompileExec593280268.dir/CheckIncludeFiles.c.o   -c /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec593280268
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec593280268.dir/link.txt --verbose=1
+/usr/bin/cc  -I/usr/local/include -I/usr/include -fPIC     -L/usr/local/lib -L/usr/lib CMakeFiles/cmTryCompileExec593280268.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec593280268 -rdynamic 
+gmake[2]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2757710721/fast"
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2757710721.dir/build.make CMakeFiles/cmTryCompileExec2757710721.dir/build
+gmake[2]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2757710721.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -I/usr/local/include -I/usr/include -fPIC  -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2757710721.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2757710721
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2757710721.dir/link.txt --verbose=1
+/usr/bin/cc  -I/usr/local/include -I/usr/include -fPIC  -DCHECK_FUNCTION_EXISTS=pthread_create   -L/usr/local/lib -L/usr/lib CMakeFiles/cmTryCompileExec2757710721.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2757710721 -rdynamic -lpthread 
+gmake[2]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec347077640/fast"
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec347077640.dir/build.make CMakeFiles/cmTryCompileExec347077640.dir/build
+gmake[2]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec347077640.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -I/usr/local/include -I/usr/include -fPIC     -o CMakeFiles/cmTryCompileExec347077640.dir/CheckIncludeFiles.c.o   -c /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec347077640
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec347077640.dir/link.txt --verbose=1
+/usr/bin/cc  -I/usr/local/include -I/usr/include -fPIC     -L/usr/local/lib -L/usr/lib CMakeFiles/cmTryCompileExec347077640.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec347077640 -rdynamic 
+gmake[2]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec147882242/fast"
+gmake[1]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec147882242.dir/build.make CMakeFiles/cmTryCompileExec147882242.dir/build
+gmake[2]: Entering directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec147882242.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -I/usr/local/include -I/usr/include -fPIC  -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec147882242.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec147882242
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec147882242.dir/link.txt --verbose=1
+/usr/bin/cc  -I/usr/local/include -I/usr/include -fPIC  -DCHECK_FUNCTION_EXISTS=pthread_create   -L/usr/local/lib -L/usr/lib CMakeFiles/cmTryCompileExec147882242.dir/CheckFunctionExists.c.o  -o cmTryCompileExec147882242 -rdynamic -lpthread 
+gmake[2]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/jessi12/CNN_local/caffe/CMakeFiles/CMakeTmp'
+
+
