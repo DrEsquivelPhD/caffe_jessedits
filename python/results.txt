@@ -1,0 +1,70 @@
+CPU mode
+Loading file: cropbash.sh
+CPU mode
+Loading file: Muminus_Plane3_bmpfile1000.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile1001.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile1002.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile1003.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile1004.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile1005.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile1006.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile1007.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile1008.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile1009.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile100.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile1010.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile1011.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile1012.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile1013.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile1014.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile1015.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile1016.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile1017.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile1018.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile1019.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile101.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile1020.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile1021.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile1022.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile1023.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile1024.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile1025.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile1026.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile1027.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile1028.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile1029.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile102.bmp
+CPU mode
+Loading file: Muminus_Plane3_bmpfile1030.bmp
