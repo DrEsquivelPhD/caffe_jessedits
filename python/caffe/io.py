@@ -87,7 +87,7 @@ def datum_to_array(datum):
     """
     if len(datum.data):
         return np.fromstring(datum.data, dtype=np.uint8).reshape(
-            datum.channels, datum.height, datum.width)
+            datum.channels,datum.height,datum.width)
     else:
         return np.array(datum.float_data).astype(float).reshape(
             datum.channels, datum.height, datum.width)
