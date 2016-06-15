@@ -14,7 +14,7 @@ data = open( sys.argv[1] , 'rb' ).read()
 print "finished setting data"
 blob.ParseFromString(data)
 print "finished parsing data"
-arr = np.array( caffe.io.blobproto_to_array(blob) )
+arr = np.array(caffe.io.blobproto_to_array(blob) )
 print "finished creating array"
 out = arr[0]
 np.save( sys.argv[2] , out )

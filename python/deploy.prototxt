@@ -45,10 +45,10 @@ layer {
   }
 }
 layer {
-  name: "conv2"
+  name: "conv2_changed"
   type: "Convolution"
   bottom: "norm1"
-  top: "conv2"
+  top: "conv2_changed"
   convolution_param {
     num_output: 256
     pad: 2
@@ -59,13 +59,13 @@ layer {
 layer {
   name: "relu2"
   type: "ReLU"
-  bottom: "conv2"
-  top: "conv2"
+  bottom: "conv2_changed"
+  top: "conv2_changed"
 }
 layer {
   name: "pool2"
   type: "Pooling"
-  bottom: "conv2"
+  bottom: "conv2_changed"
   top: "pool2"
   pooling_param {
     pool: MAX
@@ -85,10 +85,10 @@ layer {
   }
 }
 layer {
-  name: "conv3"
+  name: "conv3_changed"
   type: "Convolution"
   bottom: "norm2"
-  top: "conv3"
+  top: "conv3_changed"
   convolution_param {
     num_output: 384
     pad: 1
@@ -98,13 +98,13 @@ layer {
 layer {
   name: "relu3"
   type: "ReLU"
-  bottom: "conv3"
-  top: "conv3"
+  bottom: "conv3_changed"
+  top: "conv3_changed"
 }
 layer {
   name: "conv4"
   type: "Convolution"
-  bottom: "conv3"
+  bottom: "conv3_changed"
   top: "conv4"
   convolution_param {
     num_output: 384
@@ -197,17 +197,17 @@ layer {
   }
 }
 layer {
-  name: "fc8"
+  name: "fc8_mupi"
   type: "InnerProduct"
   bottom: "fc7"
   top: "fc8"
   inner_product_param {
-    num_output: 1000 
+    num_output: 2 
   }
 }
 layer {
   name: "prob"
   type: "Softmax"
-  bottom: "fc8"
+  bottom: "fc8_mupi"
   top: "prob"
 }

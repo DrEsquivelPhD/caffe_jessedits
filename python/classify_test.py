@@ -10,7 +10,7 @@ import sys
 import argparse
 import glob
 import time
-import cv2
+#import cv2
 from skimage.color import rgb2gray
 
 import caffe
@@ -33,7 +33,7 @@ def main(argv):
     parser.add_argument(
         "--labels_file",
         default=os.path.join(pycaffe_dir,
-                "../data/neutrinodata1/synset_words.txt"),
+                "../data/neutrinodata/synset_words.txt"),
         help="Readable label definition file."
     )    
     parser.add_argument(
@@ -50,7 +50,7 @@ def main(argv):
     parser.add_argument(
         "--pretrained_model",
         default=os.path.join(pycaffe_dir,
-                "../models/bvlc_reference_caffenet_jessedits/caffenet_train_iter_2000.caffemodel"),
+                "caffenet_train_iter_2150.caffemodel"),
         help="Trained model weights file."
     )
     parser.add_argument(
@@ -72,7 +72,7 @@ def main(argv):
     parser.add_argument(
         "--mean_file",
         default=os.path.join(pycaffe_dir,
-                             'caffe/imagenet/imagenet_mean1.npy'),
+                             '/home/jessi12/CNN_local/caffe/python/imagenet_mean18000.npy'),
         help="Data set image mean of [Channels x Height x Width] dimensions " +
              "(numpy array). Set to '' for no mean subtraction."
     )
@@ -136,12 +136,12 @@ def main(argv):
                  for im_f in glob.glob(args.input_file + '/*.' + args.ext)]
     else:
         print("Loading file: %s" % args.input_file)
-        img = cv2.imread(args.input_file)
+        #img = cv2.imread(args.input_file)
         #img_gray = cv2.cvtColor( img, cv2.COLOR_BGR2GRAY ); 
         inputs = [caffe.io.load_image(args.input_file)]
         #inputs = [img_gray]
         #print img_gray.shape
-        print img.shape
+       # print inputs.shape()
     
     if args.force_grayscale:
        print("Checking that it is grayscaling")
@@ -170,7 +170,7 @@ def main(argv):
                }
                for l in f.readlines()
             ])
-        labels = labels_df.sort('synset_id')['name'].values
+        labels = labels_df.sort_values('synset_id')['name'].values
 
         indices = (-scores).argsort()[:1]
         print indices
