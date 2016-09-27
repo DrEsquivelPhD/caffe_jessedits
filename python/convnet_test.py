@@ -33,6 +33,9 @@ if __name__ == "__main__":
 
         out = net.forward_all(data=np.asarray([image]))
         plabel = float(out['prob'][0].argmax(axis=0))
+        prob   = float(out['prob'][0].max(axis=0))
+        #probmu   = float(out['prob'][0][0])
+        #probpi   = float(out['prob'][0][1])
 
         count = count + 1
         iscorrect = label == plabel
@@ -40,12 +43,15 @@ if __name__ == "__main__":
         matrix[(label, plabel)] += 1
         labels_set.update([label, plabel])
 
-        if not iscorrect:
-            print("\rError: key=%s, expected %.1f%% but predicted %.1f%%" \
-                    % (key, label, plabel))
+        #if not iscorrect:
+        print("\rkey=%s, expected %f but predicted %f Prob: %f" \
+		% (key, label, plabel, prob))
 
-        sys.stdout.write("\rAccuracy: %.1f%%" % (100.*correct/count))
-        sys.stdout.flush()
+        #if not iscorrect:
+        #print("\rkey=%s, expected %f%% but predicted %f%% ProbMu: %f%% ProbMu: %f%%" \
+         #           % (key, label, plabel, probmu, probpi))
+        #sys.stdout.write("\rAccuracy: %.1f%%" % (100.*correct/count))
+        #sys.stdout.flush()
 
     print(str(correct) + " out of " + str(count) + " were classified correctly")
 

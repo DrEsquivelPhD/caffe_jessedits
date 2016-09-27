@@ -14,16 +14,16 @@ caffe.set_mode_cpu()
 
 #Define variable for location of required files
 MODEL_FILE = '../models/bvlc_reference_caffenet_jessedits/deploy.prototxt'
-PRETRAINED = '../models/bvlc_reference_caffenet_jessedits/caffenet_train_iter_2150.caffemodel'
-MEAN_FILE = './caffe/imagenet/imagenet_mean1.npy'
-LABEL_FILE = '../data/neutrinodata1/synset_words.txt'
+PRETRAINED = '../models/bvlc_reference_caffenet_jessedits/neutrino_mcc7/caffenet_train_iter_5800.caffemodel'
+MEAN_FILE = 'mupi_mcc7_mean.npy'
+LABEL_FILE = '../data/mupi_mcc7/synset_words.txt'
 
 #Load the BVLC Reference Caffenet models
 net = caffe.Classifier(MODEL_FILE, PRETRAINED,
                        mean=np.load(MEAN_FILE),
                        channel_swap=None,
                        raw_scale=255,
-                       image_dims=(224, 224))
+                       image_dims=(224, 224,1))
 
 '''net = caffe.Classifier(MODEL_FILE, PRETRAINED)
 net.set_channel_swap('data',(2,1,0))
@@ -47,7 +47,7 @@ prediction = net.predict([input_image])
 print("Done in %.2f s." % (time.time() - start))
 print 'prediction shape:', prediction[0].shape[0]
 print 'predicted class:', prediction[0].argmax()
-
+print 'prediction[0]:', prediction[0]
 #Predict label
 fi = open(LABEL_FILE)
 labels = fi.readlines()

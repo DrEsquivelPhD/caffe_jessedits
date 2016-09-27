@@ -2,22 +2,22 @@
 # Create the imagenet lmdb inputs
 # N.B. set the path to the imagenet train + val data dirs
 
-EXAMPLE=/home/jessica/caffe/examples/imagenet
-DATA=/home/jessica/caffe/data/neutrinodata
-TOOLS=/home/jessica/caffe/build/tools
+EXAMPLE=/home/jessi12/CNN_local/caffe/examples/imagenet
+DATA=/home/jessi12/CNN_local/caffe/data/mupi_mcc7
+TOOLS=/home/jessi12/CNN_local/caffe/tools
 
-TRAIN_DATA_ROOT=/home/jessica/caffe/data/neutrinodata/train/
-VAL_DATA_ROOT=/home/jessica/caffe/data/neutrinodata/val/
+TRAIN_DATA_ROOT=/home/jessi12/CNN_local/caffe/data/mupi_mcc7/train/
+VAL_DATA_ROOT=/home/jessi12/CNN_local/caffe/data/mupi_mcc7/val/
 
 # Set RESIZE=true to resize the images to 256x256. Leave as false if images have
 # already been resized using another tool.
 RESIZE=false
 if $RESIZE; then
-  RESIZE_HEIGHT=1600
-  RESIZE_WIDTH=3456
+  RESIZE_HEIGHT=224
+  RESIZE_WIDTH=224
 else
-  RESIZE_HEIGHT=0
-  RESIZE_WIDTH=0
+  RESIZE_HEIGHT=224
+  RESIZE_WIDTH=224
 fi
 
 if [ ! -d "$TRAIN_DATA_ROOT" ]; then
@@ -43,7 +43,7 @@ GLOG_logtostderr=1 $TOOLS/convert_imageset \
     --gray \
     $TRAIN_DATA_ROOT \
     $DATA/train.txt \
-    $EXAMPLE/neutrinodata_train_lmdb
+    $EXAMPLE/mupi_mcc7_train_lmdb
 
 echo "Creating val lmdb..."
 
@@ -54,6 +54,6 @@ GLOG_logtostderr=1 $TOOLS/convert_imageset \
     --gray \
     $VAL_DATA_ROOT \
     $DATA/val.txt \
-    $EXAMPLE/neutrinodata_val_lmdb
+    $EXAMPLE/mupi_mcc7_val_lmdb
 
 echo "Done."

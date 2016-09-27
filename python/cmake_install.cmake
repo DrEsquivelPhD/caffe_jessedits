@@ -2,7 +2,7 @@
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/jessi12/CNN_local/caffe/install")
+  SET(CMAKE_INSTALL_PREFIX "/usr/local")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,9 +34,21 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/python" TYPE FILE FILES
+    "/home/jessi12/CNN_local/caffe/python/convert.py"
+    "/home/jessi12/CNN_local/caffe/python/convert_test.py"
+    "/home/jessi12/CNN_local/caffe/python/convnet_test_lmdb.py"
+    "/home/jessi12/CNN_local/caffe/python/classify_plot.py"
     "/home/jessi12/CNN_local/caffe/python/detect.py"
+    "/home/jessi12/CNN_local/caffe/python/crop.py"
+    "/home/jessi12/CNN_local/caffe/python/confusion_matrix.py"
+    "/home/jessi12/CNN_local/caffe/python/convnet_test.py"
+    "/home/jessi12/CNN_local/caffe/python/plot_cnn_accuracy_loss.py"
+    "/home/jessi12/CNN_local/caffe/python/show_confusion_matrix.py"
     "/home/jessi12/CNN_local/caffe/python/draw_net.py"
-    "/home/jessi12/CNN_local/caffe/python/classify.py"
+    "/home/jessi12/CNN_local/caffe/python/roicrop.py"
+    "/home/jessi12/CNN_local/caffe/python/classify_test.py"
+    "/home/jessi12/CNN_local/caffe/python/checkdatum.py"
+    "/home/jessi12/CNN_local/caffe/python/classify_test1.py"
     "/home/jessi12/CNN_local/caffe/python/requirements.txt"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -45,6 +57,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/python/caffe" TYPE FILE FILES
     "/home/jessi12/CNN_local/caffe/python/caffe/coord_map.py"
     "/home/jessi12/CNN_local/caffe/python/caffe/io.py"
+    "/home/jessi12/CNN_local/caffe/python/caffe/classifier_test.py"
     "/home/jessi12/CNN_local/caffe/python/caffe/pycaffe.py"
     "/home/jessi12/CNN_local/caffe/python/caffe/classifier.py"
     "/home/jessi12/CNN_local/caffe/python/caffe/net_spec.py"

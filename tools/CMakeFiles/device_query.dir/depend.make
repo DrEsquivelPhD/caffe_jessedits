@@ -282,6 +282,10 @@ tools/CMakeFiles/device_query.dir/device_query.cpp.o: /home/jessi12/CNN_local/bo
 tools/CMakeFiles/device_query.dir/device_query.cpp.o: /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
 tools/CMakeFiles/device_query.dir/device_query.cpp.o: /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
 tools/CMakeFiles/device_query.dir/device_query.cpp.o: tools/device_query.cpp
+tools/CMakeFiles/device_query.dir/device_query.cpp.o: /usr/local/include/caffe/common.hpp
+tools/CMakeFiles/device_query.dir/device_query.cpp.o: /usr/local/include/caffe/proto/caffe.pb.h
+tools/CMakeFiles/device_query.dir/device_query.cpp.o: /usr/local/include/caffe/util/cudnn.hpp
+tools/CMakeFiles/device_query.dir/device_query.cpp.o: /usr/local/include/caffe/util/device_alternate.hpp
 tools/CMakeFiles/device_query.dir/device_query.cpp.o: /usr/local/include/gflags/gflags.h
 tools/CMakeFiles/device_query.dir/device_query.cpp.o: /usr/local/include/gflags/gflags_declare.h
 tools/CMakeFiles/device_query.dir/device_query.cpp.o: /usr/local/include/gflags/gflags_gflags.h
@@ -297,8 +301,4 @@ tools/CMakeFiles/device_query.dir/device_query.cpp.o: /usr/local/include/google/
 tools/CMakeFiles/device_query.dir/device_query.cpp.o: /usr/local/include/google/protobuf/repeated_field.h
 tools/CMakeFiles/device_query.dir/device_query.cpp.o: /usr/local/include/google/protobuf/stubs/common.h
 tools/CMakeFiles/device_query.dir/device_query.cpp.o: /usr/local/include/google/protobuf/unknown_field_set.h
-tools/CMakeFiles/device_query.dir/device_query.cpp.o: include/caffe/common.hpp
-tools/CMakeFiles/device_query.dir/device_query.cpp.o: include/caffe/proto/caffe.pb.h
-tools/CMakeFiles/device_query.dir/device_query.cpp.o: include/caffe/util/cudnn.hpp
-tools/CMakeFiles/device_query.dir/device_query.cpp.o: include/caffe/util/device_alternate.hpp
 

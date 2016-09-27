@@ -285,6 +285,12 @@ examples/CMakeFiles/convert_cifar_data.dir/cifar10/convert_cifar_data.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/examples/cifar10/convert_cifar_data.cpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/db.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/format.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -302,9 +308,3 @@ examples/CMakeFiles/convert_cifar_data.dir/cifar10/convert_cifar_data.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/text_format.h
  /usr/local/include/google/protobuf/unknown_field_set.h
- include/caffe/common.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/util/cudnn.hpp
- include/caffe/util/db.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/format.hpp

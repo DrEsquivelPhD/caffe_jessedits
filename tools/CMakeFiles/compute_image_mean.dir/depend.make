@@ -532,6 +532,13 @@ tools/CMakeFiles/compute_image_mean.dir/compute_image_mean.cpp.o: /home/jessi12/
 tools/CMakeFiles/compute_image_mean.dir/compute_image_mean.cpp.o: /home/jessi12/CNN_local/boost_1_61_0/boost/utility/enable_if.hpp
 tools/CMakeFiles/compute_image_mean.dir/compute_image_mean.cpp.o: /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
 tools/CMakeFiles/compute_image_mean.dir/compute_image_mean.cpp.o: tools/compute_image_mean.cpp
+tools/CMakeFiles/compute_image_mean.dir/compute_image_mean.cpp.o: /usr/local/include/caffe/common.hpp
+tools/CMakeFiles/compute_image_mean.dir/compute_image_mean.cpp.o: /usr/local/include/caffe/proto/caffe.pb.h
+tools/CMakeFiles/compute_image_mean.dir/compute_image_mean.cpp.o: /usr/local/include/caffe/util/cudnn.hpp
+tools/CMakeFiles/compute_image_mean.dir/compute_image_mean.cpp.o: /usr/local/include/caffe/util/db.hpp
+tools/CMakeFiles/compute_image_mean.dir/compute_image_mean.cpp.o: /usr/local/include/caffe/util/device_alternate.hpp
+tools/CMakeFiles/compute_image_mean.dir/compute_image_mean.cpp.o: /usr/local/include/caffe/util/format.hpp
+tools/CMakeFiles/compute_image_mean.dir/compute_image_mean.cpp.o: /usr/local/include/caffe/util/io.hpp
 tools/CMakeFiles/compute_image_mean.dir/compute_image_mean.cpp.o: /usr/local/include/gflags/gflags.h
 tools/CMakeFiles/compute_image_mean.dir/compute_image_mean.cpp.o: /usr/local/include/gflags/gflags_declare.h
 tools/CMakeFiles/compute_image_mean.dir/compute_image_mean.cpp.o: /usr/local/include/gflags/gflags_gflags.h
@@ -547,11 +554,4 @@ tools/CMakeFiles/compute_image_mean.dir/compute_image_mean.cpp.o: /usr/local/inc
 tools/CMakeFiles/compute_image_mean.dir/compute_image_mean.cpp.o: /usr/local/include/google/protobuf/repeated_field.h
 tools/CMakeFiles/compute_image_mean.dir/compute_image_mean.cpp.o: /usr/local/include/google/protobuf/stubs/common.h
 tools/CMakeFiles/compute_image_mean.dir/compute_image_mean.cpp.o: /usr/local/include/google/protobuf/unknown_field_set.h
-tools/CMakeFiles/compute_image_mean.dir/compute_image_mean.cpp.o: include/caffe/common.hpp
-tools/CMakeFiles/compute_image_mean.dir/compute_image_mean.cpp.o: include/caffe/proto/caffe.pb.h
-tools/CMakeFiles/compute_image_mean.dir/compute_image_mean.cpp.o: include/caffe/util/cudnn.hpp
-tools/CMakeFiles/compute_image_mean.dir/compute_image_mean.cpp.o: include/caffe/util/db.hpp
-tools/CMakeFiles/compute_image_mean.dir/compute_image_mean.cpp.o: include/caffe/util/device_alternate.hpp
-tools/CMakeFiles/compute_image_mean.dir/compute_image_mean.cpp.o: include/caffe/util/format.hpp
-tools/CMakeFiles/compute_image_mean.dir/compute_image_mean.cpp.o: include/caffe/util/io.hpp
 

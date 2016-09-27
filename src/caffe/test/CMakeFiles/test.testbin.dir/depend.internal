@@ -427,6 +427,21 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_accuracy_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/utility/enable_if.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_accuracy_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/accuracy_layer.hpp
+ /usr/local/include/caffe/layers/loss_layer.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
+ /usr/local/include/caffe/util/rng.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -443,21 +458,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_accuracy_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/accuracy_layer.hpp
- include/caffe/layers/loss_layer.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
- include/caffe/util/rng.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_argmax_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -741,6 +741,19 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_argmax_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_argmax_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/argmax_layer.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -757,19 +770,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_argmax_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/argmax_layer.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_batch_norm_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -1053,6 +1053,21 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_batch_norm_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_batch_norm_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/batch_norm_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -1069,21 +1084,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_batch_norm_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/batch_norm_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_batch_reindex_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -1367,6 +1367,21 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_batch_reindex_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_batch_reindex_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/batch_reindex_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -1383,21 +1398,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_batch_reindex_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/batch_reindex_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_benchmark.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/algorithm/string/case_conv.hpp
@@ -2613,6 +2613,12 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_benchmark.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/visit_each.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_benchmark.cpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/util/benchmark.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -2629,12 +2635,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_benchmark.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/common.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/test/test_caffe_main.hpp
- include/caffe/util/benchmark.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_bias_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -2918,6 +2918,21 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_bias_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_bias_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/bias_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -2934,21 +2949,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_bias_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/bias_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_blob.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -3232,6 +3232,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_blob.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_blob.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -3248,16 +3258,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_blob.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_caffe_main.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/algorithm/string/case_conv.hpp
@@ -4189,6 +4189,29 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_caffe_main.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/utility/result_of.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_caffe_main.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/caffe.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/internal_thread.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/parallel.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/solver.hpp
+ /usr/local/include/caffe/solver_factory.hpp
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/util/benchmark.hpp
+ /usr/local/include/caffe/util/blocking_queue.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/format.hpp
+ /usr/local/include/caffe/util/io.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
+ /usr/local/include/caffe/util/upgrade_proto.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -4205,29 +4228,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_caffe_main.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/caffe.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/internal_thread.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/net.hpp
- include/caffe/parallel.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/solver.hpp
- include/caffe/solver_factory.hpp
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/util/benchmark.hpp
- include/caffe/util/blocking_queue.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/format.hpp
- include/caffe/util/io.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
- include/caffe/util/upgrade_proto.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_common.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -4511,6 +4511,14 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_common.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_common.cpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -4527,14 +4535,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_common.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/common.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_concat_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -4818,6 +4818,21 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_concat_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_concat_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/concat_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -4834,21 +4849,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_concat_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/concat_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_contrastive_loss_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -5132,6 +5132,22 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_contrastive_loss_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_contrastive_loss_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/contrastive_loss_layer.hpp
+ /usr/local/include/caffe/layers/loss_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -5148,22 +5164,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_contrastive_loss_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/contrastive_loss_layer.hpp
- include/caffe/layers/loss_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_convolution_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -5447,6 +5447,24 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_convolution_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_convolution_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/base_conv_layer.hpp
+ /usr/local/include/caffe/layers/conv_layer.hpp
+ /usr/local/include/caffe/layers/cudnn_conv_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/im2col.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -5463,24 +5481,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_convolution_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/base_conv_layer.hpp
- include/caffe/layers/conv_layer.hpp
- include/caffe/layers/cudnn_conv_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/im2col.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_crop_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -5764,6 +5764,21 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_crop_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_crop_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/crop_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -5780,21 +5795,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_crop_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/crop_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_data_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -6328,6 +6328,27 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_data_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/utility/enable_if.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_data_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/data_reader.hpp
+ /usr/local/include/caffe/data_transformer.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/internal_thread.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/base_data_layer.hpp
+ /usr/local/include/caffe/layers/data_layer.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/util/blocking_queue.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/db.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/format.hpp
+ /usr/local/include/caffe/util/io.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -6344,27 +6365,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_data_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/data_reader.hpp
- include/caffe/data_transformer.hpp
- include/caffe/filler.hpp
- include/caffe/internal_thread.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/base_data_layer.hpp
- include/caffe/layers/data_layer.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/util/blocking_queue.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/db.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/format.hpp
- include/caffe/util/io.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_data_transformer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -6896,6 +6896,19 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_data_transformer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/utility/enable_if.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_data_transformer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/data_transformer.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/format.hpp
+ /usr/local/include/caffe/util/io.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -6912,19 +6925,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_data_transformer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/data_transformer.hpp
- include/caffe/filler.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/format.hpp
- include/caffe/util/io.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_db.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -7458,6 +7458,14 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_db.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/utility/enable_if.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_db.cpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/db.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/format.hpp
+ /usr/local/include/caffe/util/io.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -7474,14 +7482,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_db.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/common.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/test/test_caffe_main.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/db.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/format.hpp
- include/caffe/util/io.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_deconvolution_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -7765,6 +7765,23 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_deconvolution_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_deconvolution_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/base_conv_layer.hpp
+ /usr/local/include/caffe/layers/deconv_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/im2col.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -7781,23 +7798,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_deconvolution_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/base_conv_layer.hpp
- include/caffe/layers/deconv_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/im2col.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_dummy_data_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -8081,6 +8081,19 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_dummy_data_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_dummy_data_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/dummy_data_layer.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -8097,19 +8110,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_dummy_data_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/dummy_data_layer.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_eltwise_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -8393,6 +8393,21 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_eltwise_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_eltwise_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/eltwise_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -8409,21 +8424,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_eltwise_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/eltwise_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_embed_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -8707,6 +8707,21 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_embed_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_embed_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/embed_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -8723,21 +8738,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_embed_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/embed_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_euclidean_loss_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -9021,6 +9021,22 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_euclidean_loss_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_euclidean_loss_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/euclidean_loss_layer.hpp
+ /usr/local/include/caffe/layers/loss_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -9037,22 +9053,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_euclidean_loss_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/euclidean_loss_layer.hpp
- include/caffe/layers/loss_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_filler.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -9336,6 +9336,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_filler.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_filler.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -9352,16 +9362,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_filler.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_filter_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -9645,6 +9645,21 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_filter_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_filter_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/filter_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -9661,21 +9676,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_filter_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/filter_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_flatten_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -9959,6 +9959,21 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_flatten_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_flatten_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/flatten_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -9975,21 +9990,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_flatten_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/flatten_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_gradient_based_solver.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/algorithm/string/case_conv.hpp
@@ -10921,6 +10921,26 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_gradient_based_solver.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/utility/result_of.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_gradient_based_solver.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/internal_thread.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/parallel.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/sgd_solvers.hpp
+ /usr/local/include/caffe/solver.hpp
+ /usr/local/include/caffe/solver_factory.hpp
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/util/blocking_queue.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/format.hpp
+ /usr/local/include/caffe/util/io.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -10939,26 +10959,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_gradient_based_solver.cpp.o
  /usr/local/include/google/protobuf/text_format.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/internal_thread.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/net.hpp
- include/caffe/parallel.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/sgd_solvers.hpp
- include/caffe/solver.hpp
- include/caffe/solver_factory.hpp
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/util/blocking_queue.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/format.hpp
- include/caffe/util/io.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_hdf5_output_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -11490,6 +11490,21 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_hdf5_output_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/utility/enable_if.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_hdf5_output_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/hdf5_output_layer.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/format.hpp
+ /usr/local/include/caffe/util/hdf5.hpp
+ /usr/local/include/caffe/util/io.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -11506,21 +11521,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_hdf5_output_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/hdf5_output_layer.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/format.hpp
- include/caffe/util/hdf5.hpp
- include/caffe/util/io.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_hdf5data_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -11804,6 +11804,22 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_hdf5data_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_hdf5data_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/data_transformer.hpp
+ /usr/local/include/caffe/internal_thread.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/base_data_layer.hpp
+ /usr/local/include/caffe/layers/hdf5_data_layer.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/util/blocking_queue.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -11820,22 +11836,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_hdf5data_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/data_transformer.hpp
- include/caffe/internal_thread.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/base_data_layer.hpp
- include/caffe/layers/hdf5_data_layer.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/util/blocking_queue.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_hinge_loss_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -12119,6 +12119,22 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_hinge_loss_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_hinge_loss_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/hinge_loss_layer.hpp
+ /usr/local/include/caffe/layers/loss_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -12135,22 +12151,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_hinge_loss_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/hinge_loss_layer.hpp
- include/caffe/layers/loss_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_im2col_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -12434,6 +12434,21 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_im2col_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_im2col_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/im2col_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -12450,21 +12465,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_im2col_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/im2col_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_image_data_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -12996,6 +12996,25 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_image_data_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/utility/enable_if.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_image_data_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/data_transformer.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/internal_thread.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/base_data_layer.hpp
+ /usr/local/include/caffe/layers/image_data_layer.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/util/blocking_queue.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/format.hpp
+ /usr/local/include/caffe/util/io.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -13012,25 +13031,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_image_data_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/data_transformer.hpp
- include/caffe/filler.hpp
- include/caffe/internal_thread.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/base_data_layer.hpp
- include/caffe/layers/image_data_layer.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/util/blocking_queue.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/format.hpp
- include/caffe/util/io.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_infogain_loss_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -13314,6 +13314,22 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_infogain_loss_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_infogain_loss_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/infogain_loss_layer.hpp
+ /usr/local/include/caffe/layers/loss_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -13330,22 +13346,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_infogain_loss_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/infogain_loss_layer.hpp
- include/caffe/layers/loss_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_inner_product_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -13629,6 +13629,21 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_inner_product_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_inner_product_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/inner_product_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -13645,21 +13660,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_inner_product_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/inner_product_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_internal_thread.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -13943,6 +13943,14 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_internal_thread.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_internal_thread.cpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/internal_thread.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -13959,14 +13967,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_internal_thread.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/common.hpp
- include/caffe/internal_thread.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/test/test_caffe_main.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_io.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -14498,6 +14498,13 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_io.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/utility/enable_if.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_io.cpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/format.hpp
+ /usr/local/include/caffe/util/io.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -14524,13 +14531,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_io.cpp.o
  /usr/local/include/opencv2/imgproc/imgproc.hpp
  /usr/local/include/opencv2/imgproc/types_c.h
  caffe_config.h
- include/caffe/common.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/test/test_caffe_main.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/format.hpp
- include/caffe/util/io.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_layer_factory.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -15064,6 +15064,20 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_layer_factory.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/utility/enable_if.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_layer_factory.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/db.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/format.hpp
+ /usr/local/include/caffe/util/io.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -15080,20 +15094,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_layer_factory.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/db.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/format.hpp
- include/caffe/util/io.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_lrn_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -15377,6 +15377,28 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_lrn_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_lrn_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/cudnn_lcn_layer.hpp
+ /usr/local/include/caffe/layers/cudnn_lrn_layer.hpp
+ /usr/local/include/caffe/layers/eltwise_layer.hpp
+ /usr/local/include/caffe/layers/lrn_layer.hpp
+ /usr/local/include/caffe/layers/neuron_layer.hpp
+ /usr/local/include/caffe/layers/pooling_layer.hpp
+ /usr/local/include/caffe/layers/power_layer.hpp
+ /usr/local/include/caffe/layers/split_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -15393,28 +15415,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_lrn_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/cudnn_lcn_layer.hpp
- include/caffe/layers/cudnn_lrn_layer.hpp
- include/caffe/layers/eltwise_layer.hpp
- include/caffe/layers/lrn_layer.hpp
- include/caffe/layers/neuron_layer.hpp
- include/caffe/layers/pooling_layer.hpp
- include/caffe/layers/power_layer.hpp
- include/caffe/layers/split_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_math_functions.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -15698,6 +15698,16 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_math_functions.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_math_functions.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -15714,16 +15724,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_math_functions.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_maxpool_dropout_layers.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -16007,6 +16007,23 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_maxpool_dropout_layers.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_maxpool_dropout_layers.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/dropout_layer.hpp
+ /usr/local/include/caffe/layers/neuron_layer.hpp
+ /usr/local/include/caffe/layers/pooling_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -16023,23 +16040,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_maxpool_dropout_layers.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/dropout_layer.hpp
- include/caffe/layers/neuron_layer.hpp
- include/caffe/layers/pooling_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_memory_data_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -16323,6 +16323,23 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_memory_data_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_memory_data_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/data_transformer.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/internal_thread.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/base_data_layer.hpp
+ /usr/local/include/caffe/layers/memory_data_layer.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/util/blocking_queue.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -16344,23 +16361,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_memory_data_layer.cpp.o
  /usr/local/include/opencv2/core/types_c.h
  /usr/local/include/opencv2/core/version.hpp
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/data_transformer.hpp
- include/caffe/filler.hpp
- include/caffe/internal_thread.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/base_data_layer.hpp
- include/caffe/layers/memory_data_layer.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/util/blocking_queue.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_multinomial_logistic_loss_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -16644,6 +16644,22 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_multinomial_logistic_loss_layer.
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_multinomial_logistic_loss_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/loss_layer.hpp
+ /usr/local/include/caffe/layers/multinomial_logistic_loss_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -16660,22 +16676,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_multinomial_logistic_loss_layer.
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/loss_layer.hpp
- include/caffe/layers/multinomial_logistic_loss_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_mvn_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -16959,6 +16959,21 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_mvn_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_mvn_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/mvn_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -16977,21 +16992,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_mvn_layer.cpp.o
  /usr/local/include/google/protobuf/text_format.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/mvn_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_net.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -17275,6 +17275,20 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_net.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_net.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -17293,20 +17307,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_net.cpp.o
  /usr/local/include/google/protobuf/text_format.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_neuron_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -17590,6 +17590,37 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_neuron_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_neuron_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/absval_layer.hpp
+ /usr/local/include/caffe/layers/bnll_layer.hpp
+ /usr/local/include/caffe/layers/cudnn_relu_layer.hpp
+ /usr/local/include/caffe/layers/cudnn_sigmoid_layer.hpp
+ /usr/local/include/caffe/layers/cudnn_tanh_layer.hpp
+ /usr/local/include/caffe/layers/dropout_layer.hpp
+ /usr/local/include/caffe/layers/elu_layer.hpp
+ /usr/local/include/caffe/layers/exp_layer.hpp
+ /usr/local/include/caffe/layers/inner_product_layer.hpp
+ /usr/local/include/caffe/layers/log_layer.hpp
+ /usr/local/include/caffe/layers/neuron_layer.hpp
+ /usr/local/include/caffe/layers/power_layer.hpp
+ /usr/local/include/caffe/layers/prelu_layer.hpp
+ /usr/local/include/caffe/layers/relu_layer.hpp
+ /usr/local/include/caffe/layers/sigmoid_layer.hpp
+ /usr/local/include/caffe/layers/tanh_layer.hpp
+ /usr/local/include/caffe/layers/threshold_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -17608,37 +17639,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_neuron_layer.cpp.o
  /usr/local/include/google/protobuf/text_format.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/absval_layer.hpp
- include/caffe/layers/bnll_layer.hpp
- include/caffe/layers/cudnn_relu_layer.hpp
- include/caffe/layers/cudnn_sigmoid_layer.hpp
- include/caffe/layers/cudnn_tanh_layer.hpp
- include/caffe/layers/dropout_layer.hpp
- include/caffe/layers/elu_layer.hpp
- include/caffe/layers/exp_layer.hpp
- include/caffe/layers/inner_product_layer.hpp
- include/caffe/layers/log_layer.hpp
- include/caffe/layers/neuron_layer.hpp
- include/caffe/layers/power_layer.hpp
- include/caffe/layers/prelu_layer.hpp
- include/caffe/layers/relu_layer.hpp
- include/caffe/layers/sigmoid_layer.hpp
- include/caffe/layers/tanh_layer.hpp
- include/caffe/layers/threshold_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_platform.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -17922,6 +17922,11 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_platform.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_platform.cpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -17938,11 +17943,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_platform.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/common.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/test/test_caffe_main.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_pooling_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -18226,6 +18226,22 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_pooling_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_pooling_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/cudnn_pooling_layer.hpp
+ /usr/local/include/caffe/layers/pooling_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -18242,22 +18258,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_pooling_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/cudnn_pooling_layer.hpp
- include/caffe/layers/pooling_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_power_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -18541,6 +18541,22 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_power_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_power_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/neuron_layer.hpp
+ /usr/local/include/caffe/layers/power_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -18557,22 +18573,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_power_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/neuron_layer.hpp
- include/caffe/layers/power_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_protobuf.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -18856,6 +18856,11 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_protobuf.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_protobuf.cpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -18874,11 +18879,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_protobuf.cpp.o
  /usr/local/include/google/protobuf/text_format.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/common.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/test/test_caffe_main.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_random_number_generator.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -19162,6 +19162,14 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_random_number_generator.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_random_number_generator.cpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -19178,14 +19186,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_random_number_generator.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/common.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_reduction_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -19469,6 +19469,21 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_reduction_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_reduction_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/reduction_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -19485,21 +19500,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_reduction_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/reduction_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_reshape_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -19783,6 +19783,21 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_reshape_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_reshape_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/reshape_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -19799,21 +19814,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_reshape_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/reshape_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_scale_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -20097,6 +20097,22 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_scale_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_scale_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/bias_layer.hpp
+ /usr/local/include/caffe/layers/scale_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -20113,22 +20129,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_scale_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/bias_layer.hpp
- include/caffe/layers/scale_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -20412,6 +20412,24 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_sigmoid_cross_entropy_loss_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/loss_layer.hpp
+ /usr/local/include/caffe/layers/neuron_layer.hpp
+ /usr/local/include/caffe/layers/sigmoid_cross_entropy_loss_layer.hpp
+ /usr/local/include/caffe/layers/sigmoid_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -20428,24 +20446,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/loss_layer.hpp
- include/caffe/layers/neuron_layer.hpp
- include/caffe/layers/sigmoid_cross_entropy_loss_layer.hpp
- include/caffe/layers/sigmoid_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_slice_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -20729,6 +20729,21 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_slice_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_slice_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/slice_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -20745,21 +20760,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_slice_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/slice_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -21043,6 +21043,22 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_softmax_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/cudnn_softmax_layer.hpp
+ /usr/local/include/caffe/layers/softmax_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -21059,22 +21075,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/cudnn_softmax_layer.hpp
- include/caffe/layers/softmax_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_with_loss_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -21360,6 +21360,23 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_with_loss_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_softmax_with_loss_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/loss_layer.hpp
+ /usr/local/include/caffe/layers/softmax_layer.hpp
+ /usr/local/include/caffe/layers/softmax_loss_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -21376,23 +21393,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_with_loss_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/loss_layer.hpp
- include/caffe/layers/softmax_layer.hpp
- include/caffe/layers/softmax_loss_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_solver.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -21851,6 +21851,21 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_solver.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/utility/enable_if.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_solver.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/sgd_solvers.hpp
+ /usr/local/include/caffe/solver.hpp
+ /usr/local/include/caffe/solver_factory.hpp
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -21869,21 +21884,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_solver.cpp.o
  /usr/local/include/google/protobuf/text_format.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/sgd_solvers.hpp
- include/caffe/solver.hpp
- include/caffe/solver_factory.hpp
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_solver_factory.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -22344,6 +22344,20 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_solver_factory.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/utility/enable_if.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_solver_factory.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/solver.hpp
+ /usr/local/include/caffe/solver_factory.hpp
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -22362,20 +22376,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_solver_factory.cpp.o
  /usr/local/include/google/protobuf/text_format.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/solver.hpp
- include/caffe/solver_factory.hpp
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_split_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -22659,6 +22659,22 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_split_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_split_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/split_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/insert_splits.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -22677,22 +22693,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_split_layer.cpp.o
  /usr/local/include/google/protobuf/text_format.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/split_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/insert_splits.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_spp_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -22976,6 +22976,25 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_spp_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_spp_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/concat_layer.hpp
+ /usr/local/include/caffe/layers/flatten_layer.hpp
+ /usr/local/include/caffe/layers/pooling_layer.hpp
+ /usr/local/include/caffe/layers/split_layer.hpp
+ /usr/local/include/caffe/layers/spp_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -22992,25 +23011,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_spp_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/concat_layer.hpp
- include/caffe/layers/flatten_layer.hpp
- include/caffe/layers/pooling_layer.hpp
- include/caffe/layers/split_layer.hpp
- include/caffe/layers/spp_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_stochastic_pooling.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -23294,6 +23294,21 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_stochastic_pooling.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_stochastic_pooling.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/pooling_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -23310,21 +23325,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_stochastic_pooling.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/pooling_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_syncedmem.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -23608,6 +23608,14 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_syncedmem.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_syncedmem.cpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -23624,14 +23632,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_syncedmem.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/common.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_tanh_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -23915,6 +23915,22 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_tanh_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_tanh_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/neuron_layer.hpp
+ /usr/local/include/caffe/layers/tanh_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -23931,22 +23947,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_tanh_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/neuron_layer.hpp
- include/caffe/layers/tanh_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_threshold_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -24230,6 +24230,20 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_threshold_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_threshold_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/neuron_layer.hpp
+ /usr/local/include/caffe/layers/threshold_layer.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -24246,20 +24260,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_threshold_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/neuron_layer.hpp
- include/caffe/layers/threshold_layer.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_tile_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -24543,6 +24543,21 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_tile_layer.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_tile_layer.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/filler.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/layers/tile_layer.hpp
+ /usr/local/include/caffe/net.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/test/test_gradient_check_util.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -24559,21 +24574,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_tile_layer.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/filler.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/layers/tile_layer.hpp
- include/caffe/net.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/test/test_gradient_check_util.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_upgrade_proto.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -25107,6 +25107,21 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_upgrade_proto.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/utility/enable_if.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_upgrade_proto.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/layer.hpp
+ /usr/local/include/caffe/layer_factory.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/db.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/format.hpp
+ /usr/local/include/caffe/util/io.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
+ /usr/local/include/caffe/util/upgrade_proto.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -25125,21 +25140,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_upgrade_proto.cpp.o
  /usr/local/include/google/protobuf/text_format.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/layer.hpp
- include/caffe/layer_factory.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/db.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/format.hpp
- include/caffe/util/io.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
- include/caffe/util/upgrade_proto.hpp
  src/gtest/gtest.h
 src/caffe/test/CMakeFiles/test.testbin.dir/test_util_blas.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/assert.hpp
@@ -25423,6 +25423,15 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_util_blas.cpp.o
  /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
  /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
  /home/jessi12/CNN_local/caffe/src/caffe/test/test_util_blas.cpp
+ /usr/local/include/caffe/blob.hpp
+ /usr/local/include/caffe/common.hpp
+ /usr/local/include/caffe/proto/caffe.pb.h
+ /usr/local/include/caffe/syncedmem.hpp
+ /usr/local/include/caffe/test/test_caffe_main.hpp
+ /usr/local/include/caffe/util/cudnn.hpp
+ /usr/local/include/caffe/util/device_alternate.hpp
+ /usr/local/include/caffe/util/math_functions.hpp
+ /usr/local/include/caffe/util/mkl_alternate.hpp
  /usr/local/include/gflags/gflags.h
  /usr/local/include/gflags/gflags_declare.h
  /usr/local/include/gflags/gflags_gflags.h
@@ -25439,13 +25448,4 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_util_blas.cpp.o
  /usr/local/include/google/protobuf/stubs/common.h
  /usr/local/include/google/protobuf/unknown_field_set.h
  caffe_config.h
- include/caffe/blob.hpp
- include/caffe/common.hpp
- include/caffe/proto/caffe.pb.h
- include/caffe/syncedmem.hpp
- include/caffe/test/test_caffe_main.hpp
- include/caffe/util/cudnn.hpp
- include/caffe/util/device_alternate.hpp
- include/caffe/util/math_functions.hpp
- include/caffe/util/mkl_alternate.hpp
  src/gtest/gtest.h

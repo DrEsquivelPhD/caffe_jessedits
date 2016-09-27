@@ -284,6 +284,12 @@ examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o: /home
 examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o: /home/jessi12/CNN_local/boost_1_61_0/boost/type_traits/type_with_alignment.hpp
 examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o: /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
 examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o: examples/mnist/convert_mnist_data.cpp
+examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o: /usr/local/include/caffe/common.hpp
+examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o: /usr/local/include/caffe/proto/caffe.pb.h
+examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o: /usr/local/include/caffe/util/cudnn.hpp
+examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o: /usr/local/include/caffe/util/db.hpp
+examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o: /usr/local/include/caffe/util/device_alternate.hpp
+examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o: /usr/local/include/caffe/util/format.hpp
 examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o: /usr/local/include/gflags/gflags.h
 examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o: /usr/local/include/gflags/gflags_declare.h
 examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o: /usr/local/include/gflags/gflags_gflags.h
@@ -308,10 +314,4 @@ examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o: /usr/
 examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o: /usr/local/include/leveldb/status.h
 examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o: /usr/local/include/leveldb/write_batch.h
 examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o: /usr/local/include/lmdb.h
-examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o: include/caffe/common.hpp
-examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o: include/caffe/proto/caffe.pb.h
-examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o: include/caffe/util/cudnn.hpp
-examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o: include/caffe/util/db.hpp
-examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o: include/caffe/util/device_alternate.hpp
-examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o: include/caffe/util/format.hpp
 

@@ -165,6 +165,30 @@ proto/fast:
 	cd /home/jessi12/CNN_local/caffe && $(MAKE) -f src/caffe/CMakeFiles/proto.dir/build.make src/caffe/CMakeFiles/proto.dir/build
 .PHONY : proto/fast
 
+ROI.o: ROI.cpp.o
+.PHONY : ROI.o
+
+# target to build an object file
+ROI.cpp.o:
+	cd /home/jessi12/CNN_local/caffe && $(MAKE) -f src/caffe/CMakeFiles/caffe.dir/build.make src/caffe/CMakeFiles/caffe.dir/ROI.cpp.o
+.PHONY : ROI.cpp.o
+
+ROI.i: ROI.cpp.i
+.PHONY : ROI.i
+
+# target to preprocess a source file
+ROI.cpp.i:
+	cd /home/jessi12/CNN_local/caffe && $(MAKE) -f src/caffe/CMakeFiles/caffe.dir/build.make src/caffe/CMakeFiles/caffe.dir/ROI.cpp.i
+.PHONY : ROI.cpp.i
+
+ROI.s: ROI.cpp.s
+.PHONY : ROI.s
+
+# target to generate assembly for a file
+ROI.cpp.s:
+	cd /home/jessi12/CNN_local/caffe && $(MAKE) -f src/caffe/CMakeFiles/caffe.dir/build.make src/caffe/CMakeFiles/caffe.dir/ROI.cpp.s
+.PHONY : ROI.cpp.s
+
 __/__/include/caffe/proto/caffe.pb.o: __/__/include/caffe/proto/caffe.pb.cc.o
 .PHONY : __/__/include/caffe/proto/caffe.pb.o
 
@@ -2530,6 +2554,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... proto"
 	@echo "... rebuild_cache"
+	@echo "... ROI.o"
+	@echo "... ROI.i"
+	@echo "... ROI.s"
 	@echo "... __/__/include/caffe/proto/caffe.pb.o"
 	@echo "... __/__/include/caffe/proto/caffe.pb.i"
 	@echo "... __/__/include/caffe/proto/caffe.pb.s"

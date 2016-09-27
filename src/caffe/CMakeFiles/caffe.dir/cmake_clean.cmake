@@ -85,6 +85,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/caffe.dir/layer.cpp.o"
   "CMakeFiles/caffe.dir/parallel.cpp.o"
   "CMakeFiles/caffe.dir/layer_factory.cpp.o"
+  "CMakeFiles/caffe.dir/ROI.cpp.o"
   "CMakeFiles/caffe.dir/data_reader.cpp.o"
   "CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o"
   "CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o"

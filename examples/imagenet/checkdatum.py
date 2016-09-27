@@ -4,7 +4,7 @@ import numpy as np
 import lmdb
 import caffe
 
-env = lmdb.open('mylmdb', readonly=True)
+env = lmdb.open('mupi_mcc7_train_lmdb', readonly=True)
 with env.begin() as txn:
     raw_datum = txn.get(b'00000000')
 

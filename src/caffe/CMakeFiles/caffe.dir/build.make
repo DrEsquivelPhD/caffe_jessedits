@@ -2030,9 +2030,32 @@ src/caffe/CMakeFiles/caffe.dir/layer_factory.cpp.o.provides: src/caffe/CMakeFile
 
 src/caffe/CMakeFiles/caffe.dir/layer_factory.cpp.o.provides.build: src/caffe/CMakeFiles/caffe.dir/layer_factory.cpp.o
 
+src/caffe/CMakeFiles/caffe.dir/ROI.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
+src/caffe/CMakeFiles/caffe.dir/ROI.cpp.o: src/caffe/ROI.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles $(CMAKE_PROGRESS_87)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/ROI.cpp.o"
+	cd /home/jessi12/CNN_local/caffe/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/ROI.cpp.o -c /home/jessi12/CNN_local/caffe/src/caffe/ROI.cpp
+
+src/caffe/CMakeFiles/caffe.dir/ROI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/ROI.cpp.i"
+	cd /home/jessi12/CNN_local/caffe/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jessi12/CNN_local/caffe/src/caffe/ROI.cpp > CMakeFiles/caffe.dir/ROI.cpp.i
+
+src/caffe/CMakeFiles/caffe.dir/ROI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/ROI.cpp.s"
+	cd /home/jessi12/CNN_local/caffe/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jessi12/CNN_local/caffe/src/caffe/ROI.cpp -o CMakeFiles/caffe.dir/ROI.cpp.s
+
+src/caffe/CMakeFiles/caffe.dir/ROI.cpp.o.requires:
+.PHONY : src/caffe/CMakeFiles/caffe.dir/ROI.cpp.o.requires
+
+src/caffe/CMakeFiles/caffe.dir/ROI.cpp.o.provides: src/caffe/CMakeFiles/caffe.dir/ROI.cpp.o.requires
+	$(MAKE) -f src/caffe/CMakeFiles/caffe.dir/build.make src/caffe/CMakeFiles/caffe.dir/ROI.cpp.o.provides.build
+.PHONY : src/caffe/CMakeFiles/caffe.dir/ROI.cpp.o.provides
+
+src/caffe/CMakeFiles/caffe.dir/ROI.cpp.o.provides.build: src/caffe/CMakeFiles/caffe.dir/ROI.cpp.o
+
 src/caffe/CMakeFiles/caffe.dir/data_reader.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/data_reader.cpp.o: src/caffe/data_reader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles $(CMAKE_PROGRESS_87)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles $(CMAKE_PROGRESS_88)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/data_reader.cpp.o"
 	cd /home/jessi12/CNN_local/caffe/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/data_reader.cpp.o -c /home/jessi12/CNN_local/caffe/src/caffe/data_reader.cpp
 
@@ -2055,7 +2078,7 @@ src/caffe/CMakeFiles/caffe.dir/data_reader.cpp.o.provides.build: src/caffe/CMake
 
 src/caffe/CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o: src/caffe/solvers/sgd_solver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles $(CMAKE_PROGRESS_88)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles $(CMAKE_PROGRESS_89)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o"
 	cd /home/jessi12/CNN_local/caffe/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o -c /home/jessi12/CNN_local/caffe/src/caffe/solvers/sgd_solver.cpp
 
@@ -2078,7 +2101,7 @@ src/caffe/CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o.provides.build: src/caff
 
 src/caffe/CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o: src/caffe/solvers/rmsprop_solver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles $(CMAKE_PROGRESS_89)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles $(CMAKE_PROGRESS_90)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o"
 	cd /home/jessi12/CNN_local/caffe/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o -c /home/jessi12/CNN_local/caffe/src/caffe/solvers/rmsprop_solver.cpp
 
@@ -2101,7 +2124,7 @@ src/caffe/CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o.provides.build: src/
 
 src/caffe/CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o: src/caffe/solvers/adam_solver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles $(CMAKE_PROGRESS_90)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles $(CMAKE_PROGRESS_91)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o"
 	cd /home/jessi12/CNN_local/caffe/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o -c /home/jessi12/CNN_local/caffe/src/caffe/solvers/adam_solver.cpp
 
@@ -2124,7 +2147,7 @@ src/caffe/CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o.provides.build: src/caf
 
 src/caffe/CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.o: src/caffe/solvers/adadelta_solver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles $(CMAKE_PROGRESS_91)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles $(CMAKE_PROGRESS_92)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.o"
 	cd /home/jessi12/CNN_local/caffe/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.o -c /home/jessi12/CNN_local/caffe/src/caffe/solvers/adadelta_solver.cpp
 
@@ -2147,7 +2170,7 @@ src/caffe/CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.o.provides.build: src
 
 src/caffe/CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.o: src/caffe/solvers/nesterov_solver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles $(CMAKE_PROGRESS_92)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles $(CMAKE_PROGRESS_93)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.o"
 	cd /home/jessi12/CNN_local/caffe/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.o -c /home/jessi12/CNN_local/caffe/src/caffe/solvers/nesterov_solver.cpp
 
@@ -2170,7 +2193,7 @@ src/caffe/CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.o.provides.build: src
 
 src/caffe/CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.o: src/caffe/solvers/adagrad_solver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles $(CMAKE_PROGRESS_93)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles $(CMAKE_PROGRESS_94)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.o"
 	cd /home/jessi12/CNN_local/caffe/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.o -c /home/jessi12/CNN_local/caffe/src/caffe/solvers/adagrad_solver.cpp
 
@@ -2193,7 +2216,7 @@ src/caffe/CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.o.provides.build: src/
 
 src/caffe/CMakeFiles/caffe.dir/common.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/common.cpp.o: src/caffe/common.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles $(CMAKE_PROGRESS_94)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles $(CMAKE_PROGRESS_95)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/common.cpp.o"
 	cd /home/jessi12/CNN_local/caffe/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/common.cpp.o -c /home/jessi12/CNN_local/caffe/src/caffe/common.cpp
 
@@ -2216,7 +2239,7 @@ src/caffe/CMakeFiles/caffe.dir/common.cpp.o.provides.build: src/caffe/CMakeFiles
 
 src/caffe/CMakeFiles/caffe.dir/syncedmem.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/syncedmem.cpp.o: src/caffe/syncedmem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles $(CMAKE_PROGRESS_95)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles $(CMAKE_PROGRESS_96)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/syncedmem.cpp.o"
 	cd /home/jessi12/CNN_local/caffe/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/syncedmem.cpp.o -c /home/jessi12/CNN_local/caffe/src/caffe/syncedmem.cpp
 
@@ -2239,7 +2262,7 @@ src/caffe/CMakeFiles/caffe.dir/syncedmem.cpp.o.provides.build: src/caffe/CMakeFi
 
 src/caffe/CMakeFiles/caffe.dir/solver.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/solver.cpp.o: src/caffe/solver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles $(CMAKE_PROGRESS_96)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles $(CMAKE_PROGRESS_97)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/solver.cpp.o"
 	cd /home/jessi12/CNN_local/caffe/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solver.cpp.o -c /home/jessi12/CNN_local/caffe/src/caffe/solver.cpp
 
@@ -2262,7 +2285,7 @@ src/caffe/CMakeFiles/caffe.dir/solver.cpp.o.provides.build: src/caffe/CMakeFiles
 
 src/caffe/CMakeFiles/caffe.dir/net.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/net.cpp.o: src/caffe/net.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles $(CMAKE_PROGRESS_97)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jessi12/CNN_local/caffe/CMakeFiles $(CMAKE_PROGRESS_98)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/net.cpp.o"
 	cd /home/jessi12/CNN_local/caffe/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/net.cpp.o -c /home/jessi12/CNN_local/caffe/src/caffe/net.cpp
 
@@ -2371,6 +2394,7 @@ caffe_OBJECTS = \
 "CMakeFiles/caffe.dir/layer.cpp.o" \
 "CMakeFiles/caffe.dir/parallel.cpp.o" \
 "CMakeFiles/caffe.dir/layer_factory.cpp.o" \
+"CMakeFiles/caffe.dir/ROI.cpp.o" \
 "CMakeFiles/caffe.dir/data_reader.cpp.o" \
 "CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o" \
 "CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o" \
@@ -2472,6 +2496,7 @@ lib/libcaffe.so.1.0.0-rc3: src/caffe/CMakeFiles/caffe.dir/internal_thread.cpp.o
 lib/libcaffe.so.1.0.0-rc3: src/caffe/CMakeFiles/caffe.dir/layer.cpp.o
 lib/libcaffe.so.1.0.0-rc3: src/caffe/CMakeFiles/caffe.dir/parallel.cpp.o
 lib/libcaffe.so.1.0.0-rc3: src/caffe/CMakeFiles/caffe.dir/layer_factory.cpp.o
+lib/libcaffe.so.1.0.0-rc3: src/caffe/CMakeFiles/caffe.dir/ROI.cpp.o
 lib/libcaffe.so.1.0.0-rc3: src/caffe/CMakeFiles/caffe.dir/data_reader.cpp.o
 lib/libcaffe.so.1.0.0-rc3: src/caffe/CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o
 lib/libcaffe.so.1.0.0-rc3: src/caffe/CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o
@@ -2497,9 +2522,9 @@ lib/libcaffe.so.1.0.0-rc3: /usr/lib64/libhdf5.so
 lib/libcaffe.so.1.0.0-rc3: /usr/local/lib/liblmdb.so
 lib/libcaffe.so.1.0.0-rc3: /usr/local/lib/libleveldb.so
 lib/libcaffe.so.1.0.0-rc3: /usr/lib64/libsnappy.so
-lib/libcaffe.so.1.0.0-rc3: /usr/local/lib/libopencv_core.a
-lib/libcaffe.so.1.0.0-rc3: /usr/local/lib/libopencv_highgui.a
-lib/libcaffe.so.1.0.0-rc3: /usr/local/lib/libopencv_imgproc.a
+lib/libcaffe.so.1.0.0-rc3: /usr/local/lib/libopencv_core.so.2.4.13
+lib/libcaffe.so.1.0.0-rc3: /usr/local/lib/libopencv_highgui.so.2.4.13
+lib/libcaffe.so.1.0.0-rc3: /usr/local/lib/libopencv_imgproc.so.2.4.13
 lib/libcaffe.so.1.0.0-rc3: /usr/lib64/liblapack.so
 lib/libcaffe.so.1.0.0-rc3: /usr/lib64/atlas/libptcblas.so
 lib/libcaffe.so.1.0.0-rc3: /usr/lib64/atlas/libatlas.so
@@ -2518,16 +2543,11 @@ lib/libcaffe.so.1.0.0-rc3: /usr/lib64/atlas/libptcblas.so
 lib/libcaffe.so.1.0.0-rc3: /usr/lib64/atlas/libatlas.so
 lib/libcaffe.so.1.0.0-rc3: /usr/local/lib/libpython2.7.so
 lib/libcaffe.so.1.0.0-rc3: /home/jessi12/CNN_local/boost_1_61_0/stage/lib/libboost_python.so
-lib/libcaffe.so.1.0.0-rc3: /usr/local/lib/libopencv_core.a
-lib/libcaffe.so.1.0.0-rc3: /usr/lib64/libjpeg.so
-lib/libcaffe.so.1.0.0-rc3: /usr/lib64/libpng.so
-lib/libcaffe.so.1.0.0-rc3: /usr/lib64/libtiff.so
-lib/libcaffe.so.1.0.0-rc3: /usr/lib64/libjasper.so
-lib/libcaffe.so.1.0.0-rc3: /usr/lib64/libjpeg.so
-lib/libcaffe.so.1.0.0-rc3: /usr/lib64/libpng.so
-lib/libcaffe.so.1.0.0-rc3: /usr/lib64/libtiff.so
-lib/libcaffe.so.1.0.0-rc3: /usr/lib64/libjasper.so
-lib/libcaffe.so.1.0.0-rc3: /usr/lib64/libz.so
+lib/libcaffe.so.1.0.0-rc3: /usr/local/lib/libopencv_core.so.2.4.13
+lib/libcaffe.so.1.0.0-rc3: /usr/local/cuda-7.5/lib64/libcudart.so
+lib/libcaffe.so.1.0.0-rc3: /usr/local/cuda-7.5/lib64/libnppc.so
+lib/libcaffe.so.1.0.0-rc3: /usr/local/cuda-7.5/lib64/libnppi.so
+lib/libcaffe.so.1.0.0-rc3: /usr/local/cuda-7.5/lib64/libnpps.so
 lib/libcaffe.so.1.0.0-rc3: src/caffe/CMakeFiles/caffe.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../lib/libcaffe.so"
 	cd /home/jessi12/CNN_local/caffe/src/caffe && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/caffe.dir/link.txt --verbose=$(VERBOSE)
@@ -2627,6 +2647,7 @@ caffe_OBJECTS = \
 "CMakeFiles/caffe.dir/layer.cpp.o" \
 "CMakeFiles/caffe.dir/parallel.cpp.o" \
 "CMakeFiles/caffe.dir/layer_factory.cpp.o" \
+"CMakeFiles/caffe.dir/ROI.cpp.o" \
 "CMakeFiles/caffe.dir/data_reader.cpp.o" \
 "CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o" \
 "CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o" \
@@ -2728,6 +2749,7 @@ src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: src/caffe/CMakeFiles
 src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: src/caffe/CMakeFiles/caffe.dir/layer.cpp.o
 src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: src/caffe/CMakeFiles/caffe.dir/parallel.cpp.o
 src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: src/caffe/CMakeFiles/caffe.dir/layer_factory.cpp.o
+src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: src/caffe/CMakeFiles/caffe.dir/ROI.cpp.o
 src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: src/caffe/CMakeFiles/caffe.dir/data_reader.cpp.o
 src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: src/caffe/CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o
 src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: src/caffe/CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o
@@ -2753,9 +2775,9 @@ src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: /usr/lib64/libhdf5.s
 src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: /usr/local/lib/liblmdb.so
 src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: /usr/local/lib/libleveldb.so
 src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: /usr/lib64/libsnappy.so
-src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: /usr/local/lib/libopencv_core.a
-src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: /usr/local/lib/libopencv_highgui.a
-src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: /usr/local/lib/libopencv_imgproc.a
+src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: /usr/local/lib/libopencv_core.so.2.4.13
+src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: /usr/local/lib/libopencv_highgui.so.2.4.13
+src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: /usr/local/lib/libopencv_imgproc.so.2.4.13
 src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: /usr/lib64/liblapack.so
 src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: /usr/lib64/atlas/libptcblas.so
 src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: /usr/lib64/atlas/libatlas.so
@@ -2774,16 +2796,11 @@ src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: /usr/lib64/atlas/lib
 src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: /usr/lib64/atlas/libatlas.so
 src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: /usr/local/lib/libpython2.7.so
 src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: /home/jessi12/CNN_local/boost_1_61_0/stage/lib/libboost_python.so
-src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: /usr/local/lib/libopencv_core.a
-src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: /usr/lib64/libjpeg.so
-src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: /usr/lib64/libpng.so
-src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: /usr/lib64/libtiff.so
-src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: /usr/lib64/libjasper.so
-src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: /usr/lib64/libjpeg.so
-src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: /usr/lib64/libpng.so
-src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: /usr/lib64/libtiff.so
-src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: /usr/lib64/libjasper.so
-src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: /usr/lib64/libz.so
+src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: /usr/local/lib/libopencv_core.so.2.4.13
+src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: /usr/local/cuda-7.5/lib64/libcudart.so
+src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: /usr/local/cuda-7.5/lib64/libnppc.so
+src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: /usr/local/cuda-7.5/lib64/libnppi.so
+src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: /usr/local/cuda-7.5/lib64/libnpps.so
 src/caffe/CMakeFiles/CMakeRelink.dir/libcaffe.so.1.0.0-rc3: src/caffe/CMakeFiles/caffe.dir/relink.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library CMakeFiles/CMakeRelink.dir/libcaffe.so"
 	cd /home/jessi12/CNN_local/caffe/src/caffe && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/caffe.dir/relink.txt --verbose=$(VERBOSE)
@@ -2881,6 +2898,7 @@ src/caffe/CMakeFiles/caffe.dir/requires: src/caffe/CMakeFiles/caffe.dir/internal
 src/caffe/CMakeFiles/caffe.dir/requires: src/caffe/CMakeFiles/caffe.dir/layer.cpp.o.requires
 src/caffe/CMakeFiles/caffe.dir/requires: src/caffe/CMakeFiles/caffe.dir/parallel.cpp.o.requires
 src/caffe/CMakeFiles/caffe.dir/requires: src/caffe/CMakeFiles/caffe.dir/layer_factory.cpp.o.requires
+src/caffe/CMakeFiles/caffe.dir/requires: src/caffe/CMakeFiles/caffe.dir/ROI.cpp.o.requires
 src/caffe/CMakeFiles/caffe.dir/requires: src/caffe/CMakeFiles/caffe.dir/data_reader.cpp.o.requires
 src/caffe/CMakeFiles/caffe.dir/requires: src/caffe/CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o.requires
 src/caffe/CMakeFiles/caffe.dir/requires: src/caffe/CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o.requires

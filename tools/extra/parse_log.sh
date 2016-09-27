@@ -41,11 +41,12 @@ grep ', loss = ' $1 >> aux.txt
 grep 'Iteration ' aux.txt | sed  's/.*Iteration \([[:digit:]]*\).*/\1/g' > aux0.txt
 grep ', loss = ' $1 | awk '{print $9}' > aux1.txt
 grep ', lr = ' $1 | awk '{print $9}' > aux2.txt
+grep 'Train net output #0' $1 | awk '{print $11}' > aux4.txt
 
 # Extracting elapsed seconds
 $DIR/extract_seconds.py aux.txt aux3.txt
 
 # Generating
-echo '#Iters Seconds TrainingLoss LearningRate'> $LOG.train
-paste aux0.txt aux3.txt aux1.txt aux2.txt | column -t >> $LOG.train
-rm aux.txt aux0.txt aux1.txt aux2.txt  aux3.txt
+echo '#Iters Seconds TrainingLoss LearningRate TrainAccuracy'> $LOG.train
+paste aux0.txt aux3.txt aux1.txt aux2.txt aux4.txt| column -t >> $LOG.train
+rm aux.txt aux0.txt aux1.txt aux2.txt  aux3.txt aux4.txt

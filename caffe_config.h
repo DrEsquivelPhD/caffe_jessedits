@@ -9,10 +9,10 @@
 
 /* NVIDA cuDNN */
 /* #undef HAVE_CUDNN */
-#define USE_CUDNN
+/* #undef USE_CUDNN */
 
 /* NVIDA cuDNN */
-/* #undef CPU_ONLY */
+#define CPU_ONLY
 
 /* Test device */
 #define CUDA_TEST_DEVICE 

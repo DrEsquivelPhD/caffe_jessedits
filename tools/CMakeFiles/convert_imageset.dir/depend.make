@@ -563,6 +563,14 @@ tools/CMakeFiles/convert_imageset.dir/convert_imageset.cpp.o: /home/jessi12/CNN_
 tools/CMakeFiles/convert_imageset.dir/convert_imageset.cpp.o: /home/jessi12/CNN_local/boost_1_61_0/boost/utility/enable_if.hpp
 tools/CMakeFiles/convert_imageset.dir/convert_imageset.cpp.o: /home/jessi12/CNN_local/boost_1_61_0/boost/version.hpp
 tools/CMakeFiles/convert_imageset.dir/convert_imageset.cpp.o: tools/convert_imageset.cpp
+tools/CMakeFiles/convert_imageset.dir/convert_imageset.cpp.o: /usr/local/include/caffe/common.hpp
+tools/CMakeFiles/convert_imageset.dir/convert_imageset.cpp.o: /usr/local/include/caffe/proto/caffe.pb.h
+tools/CMakeFiles/convert_imageset.dir/convert_imageset.cpp.o: /usr/local/include/caffe/util/cudnn.hpp
+tools/CMakeFiles/convert_imageset.dir/convert_imageset.cpp.o: /usr/local/include/caffe/util/db.hpp
+tools/CMakeFiles/convert_imageset.dir/convert_imageset.cpp.o: /usr/local/include/caffe/util/device_alternate.hpp
+tools/CMakeFiles/convert_imageset.dir/convert_imageset.cpp.o: /usr/local/include/caffe/util/format.hpp
+tools/CMakeFiles/convert_imageset.dir/convert_imageset.cpp.o: /usr/local/include/caffe/util/io.hpp
+tools/CMakeFiles/convert_imageset.dir/convert_imageset.cpp.o: /usr/local/include/caffe/util/rng.hpp
 tools/CMakeFiles/convert_imageset.dir/convert_imageset.cpp.o: /usr/local/include/gflags/gflags.h
 tools/CMakeFiles/convert_imageset.dir/convert_imageset.cpp.o: /usr/local/include/gflags/gflags_declare.h
 tools/CMakeFiles/convert_imageset.dir/convert_imageset.cpp.o: /usr/local/include/gflags/gflags_gflags.h
@@ -578,12 +586,4 @@ tools/CMakeFiles/convert_imageset.dir/convert_imageset.cpp.o: /usr/local/include
 tools/CMakeFiles/convert_imageset.dir/convert_imageset.cpp.o: /usr/local/include/google/protobuf/repeated_field.h
 tools/CMakeFiles/convert_imageset.dir/convert_imageset.cpp.o: /usr/local/include/google/protobuf/stubs/common.h
 tools/CMakeFiles/convert_imageset.dir/convert_imageset.cpp.o: /usr/local/include/google/protobuf/unknown_field_set.h
-tools/CMakeFiles/convert_imageset.dir/convert_imageset.cpp.o: include/caffe/common.hpp
-tools/CMakeFiles/convert_imageset.dir/convert_imageset.cpp.o: include/caffe/proto/caffe.pb.h
-tools/CMakeFiles/convert_imageset.dir/convert_imageset.cpp.o: include/caffe/util/cudnn.hpp
-tools/CMakeFiles/convert_imageset.dir/convert_imageset.cpp.o: include/caffe/util/db.hpp
-tools/CMakeFiles/convert_imageset.dir/convert_imageset.cpp.o: include/caffe/util/device_alternate.hpp
-tools/CMakeFiles/convert_imageset.dir/convert_imageset.cpp.o: include/caffe/util/format.hpp
-tools/CMakeFiles/convert_imageset.dir/convert_imageset.cpp.o: include/caffe/util/io.hpp
-tools/CMakeFiles/convert_imageset.dir/convert_imageset.cpp.o: include/caffe/util/rng.hpp
 
