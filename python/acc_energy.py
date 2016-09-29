@@ -15,23 +15,18 @@ mergedpi = data_val.merge(data_pi, on=['Subrun','Event','Type'])
 mergedmu.to_csv('mergedmu.csv', delimiter = ' ')
 mergedpi.to_csv('mergedpi.csv', delimiter = ' ')
 
-mergedmu = mergedmu.sort('length')
-mergedpi = mergedpi.sort('length')
+mergedmu = mergedmu.sort('Eng')
+mergedpi = mergedpi.sort('Eng')
 
-x1 = np.array(mergedmu.length)
-y1 = np.array(np.abs(mergedmu.Pred[mergedmu.Type == 'Muon'] - mergedmu.Prob[mergedmu.Type == 'Muon']))
-x2 = np.array(mergedpi.length)
-y2 = np.array(np.abs(mergedpi.Pred[mergedpi.Type == 'Pion'] - mergedpi.Prob[mergedpi.Type == 'Pion']))
-
-binsmu = np.linspace(mergedmu.length.min(),mergedmu.length.max(),10)
-groupsmu = mergedmu.groupby(pd.cut(mergedmu.length,binsmu))
+binsmu = np.linspace(mergedmu.Eng.min(),mergedmu.Eng.max(),10)
+groupsmu = mergedmu.groupby(pd.cut(mergedmu.Eng,binsmu))
 meanmu = np.abs(groupsmu.mean().Pred -groupsmu.mean().Prob)
-meanmu_length = groupsmu.mean().length
+meanmu_Eng = groupsmu.mean().Eng
 
-binspi = np.linspace(mergedpi.length.min(),mergedpi.length.max(),10)
-groupspi = mergedpi.groupby(pd.cut(mergedpi.length,binspi))
+binspi = np.linspace(mergedpi.Eng.min(),mergedpi.Eng.max(),10)
+groupspi = mergedpi.groupby(pd.cut(mergedpi.Eng,binspi))
 meanpi = np.abs(groupspi.mean().Pred -groupspi.mean().Prob)
-meanpi_length = groupspi.mean().length
+meanpi_Eng = groupspi.mean().Eng
 
 # make histogram
 plt.figure();
@@ -49,17 +44,17 @@ I tried to match the color scheme of the hist you sent me, but you can change to
 #plt.errorbar(meanmu_length,meanmu,fmt='o',yerr=np.abs(groupsmu.Pred.std()-groupsmu.Prob.std()))
 #plt.errorbar(meanpi_length,meanpi,fmt='o',yerr=np.abs(groupspi.Pred.std()-groupspi.Prob.std()))
 
-plt.plot(np.array(meanmu_length), meanmu)#,bins=np.linspace(0,1,20),color='red',alpha=0.6,label='Muons');
-plt.plot(np.array(meanpi_length), meanpi)#,bins=np.linspace(0,1,20),color='red',alpha=0.6,label='Muons');
+plt.plot(np.array(meanmu_Eng), meanmu)#,bins=np.linspace(0,1,20),color='red',alpha=0.6,label='Muons');
+plt.plot(np.array(meanpi_Eng), meanpi)#,bins=np.linspace(0,1,20),color='red',alpha=0.6,label='Muons');
 
 #plt.np.histogram2d(mergedpi.length, np.abs(mergedpi.Pred[mergedpi.Type == 'Pion'] - mergedpi.Prob[mergedpi.Type == 'Pion']),color='red',alpha=0.6,label='Pions');
 #plt.hist(mergedpi.length, np.abs(mergedpi.Pred[mergedpi.Type == 'Pion'] - mergedpi.Prob[mergedpi.Type == 'Pion']),bins=np.linspace(0,1,20),color='red',alpha=0.6,label='Pions');
 
 
 
-plt.xlabel('length');
+plt.xlabel('Eng');
 plt.ylabel('Probability');
 plt.legend(loc='upper center',frameon=False);
 
 # uncomment to save
-plt.savefig("acc_length.pdf")
+plt.savefig("acc_eng_nomichel.pdf")
